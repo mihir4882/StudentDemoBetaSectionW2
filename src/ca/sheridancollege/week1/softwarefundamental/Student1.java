@@ -10,8 +10,23 @@ package ca.sheridancollege.week1.softwarefundamental;
  * @author mehta
  */
 public class Student1 {
+    
+   private String name;
+    private int Student_ID;
+    /**
+     * @return the Student_ID
+     */
+    public int getStudent_ID() {
+        return Student_ID;
+    }
 
-    private String name;
+    /**
+     * @param Student_ID the Student_ID to set
+     */
+    public void setStudent_ID(int Student_ID) {
+        this.Student_ID = Student_ID;
+    }
+
 
     /**
      * @return the name
@@ -19,6 +34,7 @@ public class Student1 {
     public String getName() {
         return name;
     }
+   
 
     /**
      * @param givenName the name to set
